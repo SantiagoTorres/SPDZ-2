@@ -156,6 +156,8 @@ enum
     PRINTCHRINT = 0xBA,
     PRINTSTRINT = 0xBB,
 
+    GHADA = 0xFF,
+
     // GF(2^n) versions
     
     // Load/store

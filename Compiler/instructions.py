@@ -1159,6 +1159,13 @@ class gconvgf2n(base.Instruction):
     code = base.opcodes['GCONVGF2N']
     arg_format = ['ciw', 'cg']
 
+@base.vectorize
+class ghada(base.Instruction):
+    """ Do some ghada things """
+    __slots__ = []
+    code = base.opcodes['GHADA']
+    arg_format = []
+
 ###
 ### Other instructions
 ###

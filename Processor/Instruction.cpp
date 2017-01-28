@@ -280,6 +280,7 @@ void Instruction::parse(istream& s)
       case TIME:
       case CRASH:
       case CLOSESOCKET:
+      case GHADA:
 	break;
       // open instructions
       case STARTOPEN:
@@ -1463,6 +1464,9 @@ void Instruction::execute(Processor& Proc) const
         break;
       case TIME:
 	cout << "Elapsed time: " << Proc.machine.timer[0].elapsed() << endl;
+    break;
+      case GHADA:
+    cout << "GHADHOOOOOOOOOOOO0000000000000000000000000000000000000000000000000OOSH" << endl;
 	break;
       case START:
         cout << "Starting timer " << n << " at " << Proc.machine.timer[n].elapsed()

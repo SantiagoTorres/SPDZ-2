@@ -1221,3 +1221,6 @@ def Norm(b, k, f, kappa, simplex_flag=False):
     signed_acc = sign * acc
 
     return part_reciprocal, signed_acc
+
+def do_the_ghadhoosh():
+    ghada()

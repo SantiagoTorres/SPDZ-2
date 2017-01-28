@@ -150,6 +150,9 @@ opcodes = dict(
     PRINTSTRINT = 0xBB,
     GBITDEC = 0x184,
     GBITCOM = 0x185,
+
+    # ghada-ing
+    GHADA = 0xFF
 )
 
 
